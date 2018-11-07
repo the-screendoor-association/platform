@@ -1,0 +1,43 @@
+{"version":"1.1.0",
+"topics":[
+    {"name":"call_received","paused":false, "channels":[
+        {"name":"frontend_lcd","paused":false},
+        {"name":"debug_py","paused":false}
+    ]},
+    {"name":"call_blacklist","paused":false, "channels":[
+        {"name":"backend_cpp","paused":false},
+        {"name":"debug_py","paused":false}
+    ]},
+    {"name":"call_whitelist","paused":false, "channels":[
+        {"name":"backend_cpp","paused":false},
+        {"name":"debug_py","paused":false}
+    ]},
+    {"name":"history_get","paused":false, "channels":[
+        {"name":"backend_cpp","paused":false},
+        {"name":"debug_py","paused":false}
+    ]},
+    {"name":"history_give","paused":false, "channels":[
+        {"name":"frontend_lcd","paused":false},
+        {"name":"debug_py","paused":false}
+    ]},
+    {"name":"settings_request_all","paused":false, "channels":[
+        {"name":"backend_cpp","paused":false},
+        {"name":"debug_py","paused":false}
+    ]},
+    {"name":"settings_all","paused":false, "channels":[
+        {"name":"frontend_lcd","paused":false},
+        {"name":"debug_py","paused":false}
+    ]},
+    {"name":"setting_get","paused":false, "channels":[
+        {"name":"backend_cpp","paused":false},
+        {"name":"debug_py","paused":false}
+    ]},
+    {"name":"setting_give","paused":false, "channels":[
+        {"name":"frontend_lcd","paused":false},
+        {"name":"debug_py","paused":false}
+    ]},
+    {"name":"setting_set","paused":false, "channels":[
+        {"name":"backend_cpp","paused":false},
+        {"name":"debug_py","paused":false}
+    ]}
+]}

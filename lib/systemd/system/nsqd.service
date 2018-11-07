@@ -1,0 +1,11 @@
+[Unit]
+Description=nsqd
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/nsqd -data-path /var/nsqd -http-address "0.0.0.0:4151" -tcp-address "0.0.0.0:4150"
+Restart=on-abort
+User=root
+
+[Install]
+WantedBy=multi-user.target
